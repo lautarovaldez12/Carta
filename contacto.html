@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contacto.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="" method="POST">
+            <section>
+                <h2>¿De donde sos?</h2>
+                <select name="pais" id="pais">
+                    <option value="1">Argentina</option>
+                    <option value="2">Peru</option>
+                    <option value="3">Chile</option>
+                </select>
+            </section>
+
+            <section class="box-check">
+                <h2>¿Qué tipo de plato fuel el que más te gusto?</h2>
+                <label> <input type="checkbox" name="opinion" value="acorde"> Muy acorde</label>
+                <label> <input type="checkbox" name="opinion" value="mejorar"> Buena, pero podría mejorar</label>
+                <label> <input type="checkbox" name="opinion" value="mala"> Mala</label>
+            </section>
+
+            <section class="box-check">
+                <h2>¿Que tipo de plato fue el que más te gustó?</h2>
+                <label> <input type="checkbox" name="plato" value="entrada"> Entrada</label>
+                <label> <input type="checkbox" name="plato" value="principal"> Plato principal</label>
+                <label> <input type="checkbox" name="plato" value="postre"> Postre</label>
+                <label> <input type="checkbox" name="plato" value="otros"> Otros</label>
+            </section>
+
+            <section>
+                <h2>¿Recomendarías el lugar?</h2>
+                <label> <input type="radio" name="reco" value="si"> Si</label>
+                <label> <input type="radio" name="reco" value="no"> No</label>
+            </section>
+
+            <section>
+                <h2>¿por qué?</h2>
+                <textarea name="opinion" id="" cols="30" rows="10"></textarea>
+            </section>
+
+            <section>
+                <h3>Dejanos tus datos y nos pondremos en contacto con vos</h3>
+                <p>nombre</p>
+                <input type="text">
+                <p>email</p>
+                <input type="text">
+            </section>
+
+            <section>
+                <input type="submit" value="Enviar">
+                <button><a href="#">Resetear</a></button>
+            </section>
+        </form>
+    </main>
+</body>
+</html>

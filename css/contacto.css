@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main form{
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: wheat solid;
+}
+
+main form section{
+    margin: 20px;
+}
+
+main form section h2, h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+main form section select{
+    width: 100px;
+}
+
+main form section textarea{
+    resize: none;
+}
+
+main form section input[type="submit"]{
+    margin-top: 12px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 170px;
+    color: #fff;
+    font-size: 18px;
+    background: rgb(231, 163, 16);
+}
+
+main form button{
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 170px;
+    color: #fff;
+    font-size: 18px;
+    background: rgb(231, 163, 16);
+    
+}
+
+main form button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.box-check label{
+    display: block;
+}
